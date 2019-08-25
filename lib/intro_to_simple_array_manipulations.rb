@@ -1,10 +1,11 @@
-famous_cats=["lil bub","grumpy cat","maru"]
-=>["lil bub","grumpy cat","maru"]
-famous_cats
-
-famous_cats=["lil bub","grumpy cat","maru"]
-=>["lil bub","grumpy cat","maru"]
-famous_cats << "Nala cat"
-=>["lil bub","grumpy cat","maru","Nala cat"]
-famous_cats.push("Garfield")
-=>["lil bub","grumpy cat","maru","Nala cat","Garfield"]
+def(using push)
+colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
+    next_color = "violet"
+    colors_in_the_rainbow.push(purple)
+    end
+    
+  def(using unshift)  
+        bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+    new_neighborhood = "Staten Island"
+    new_neighborhood.unshift(bouroughs_in_nyc)
+  end
